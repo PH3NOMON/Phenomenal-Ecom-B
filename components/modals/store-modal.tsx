@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import * as z from "zod";
+import axios from "axios";
 
 import { useForm } from "react-hook-form";
 
@@ -17,7 +18,6 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-import axios from "axios";
 
 const formSchema = z.object({
   name: z.string().min(1),
@@ -39,7 +39,8 @@ export const StoreModal = () => {
     try {
       setLoading(true);
 
-      const response = await axios.post("/api/stores/", values);
+      const response = await axios.post("/api/stores", values);
+      //const response = await axios.get("https://dummyjson.com/products/1");
 
       console.log(response.data);
     } catch (error) {
