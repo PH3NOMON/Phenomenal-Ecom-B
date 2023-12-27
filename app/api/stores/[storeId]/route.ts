@@ -61,7 +61,6 @@ export async function DELETE(
         id: params.storeId,
         userId,
       },
-       
     });
 
     return NextResponse.json(store);
