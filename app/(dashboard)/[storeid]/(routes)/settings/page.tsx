@@ -5,7 +5,7 @@ import prismadb from "@/lib/prismadb";
 
 import { SettingsForm } from "./components/settings-form";
 
-const SettingsPage = async ({ params }: { params: { storeId: string } }) => {
+const SettingsPage = async ({ params }: { params: { storeid: string } }) => {
   const { userId } = auth();
 
   if (!userId) {
@@ -14,7 +14,7 @@ const SettingsPage = async ({ params }: { params: { storeId: string } }) => {
 
   const store = await prismadb.store.findFirst({
     where: {
-      id: params.storeId,
+      id: params.storeid,
       userId,
     },
   });
