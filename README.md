@@ -61,3 +61,9 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 >>>>>>> master
+>>>>>>> 
+Screenshots:
+![image](https://github.com/PH3NOMON/Phenomenal-Ecom-B/assets/120302946/d65aafc4-a504-4079-a54f-c8304cb71198)
+![image](https://github.com/PH3NOMON/Phenomenal-Ecom-B/assets/120302946/f413e5ed-c0b9-456a-93a7-516425c96afb)
+![image](https://github.com/PH3NOMON/Phenomenal-Ecom-B/assets/120302946/f1521fa0-c0a7-4a73-a11d-6f717ae4d1ab)
+>>>>>>> 
